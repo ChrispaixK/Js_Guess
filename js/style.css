@@ -1,0 +1,88 @@
+body {
+  background-color: gainsboro;
+}
+
+.loose {
+  background-color: red;
+  color: white;
+}
+
+.win {
+  background-color: rgb(82, 250, 82);
+  color: black;
+}
+
+.top {
+  text-align: center;
+}
+
+.top span {
+  background-color: black;
+  color: yellow;
+}
+
+h5 {
+  letter-spacing: 25px;
+}
+
+.counter {
+  width: 80px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0px 0px 20px 0px red;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 100px;
+  height: 50px;
+  margin: 4px;
+  border: none;
+  box-shadow: 0 0 6px 0 black;
+}
+
+.increase {
+  background-color: green;
+  color: white;
+  font-size: 100%;
+  letter-spacing: 1px;
+}
+
+.decrease {
+  background-color: red;
+  color: white;
+  font-size: 100%;
+  letter-spacing: 1px;
+}
+
+.guess {
+  background-color: goldenrod;
+  color: white;
+  font-size: 100%;
+  letter-spacing: 1px;
+}
+
+.info {
+  border: 2px solid red;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.points {
+  text-align: center;
+  border: 2px solid blue;
+  margin-top: 20px;
+}
+
+
+.undisplay {
+  display: none;
+}
