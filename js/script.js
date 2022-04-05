@@ -37,7 +37,10 @@ let increase=()=>{
 }
 
 let decrease=()=>{
-  counter-=1;
+  
+  if(counter>=1){
+    counter-=1;
+  }
   document.getElementById('counter').innerHTML=counter;
 }
 
